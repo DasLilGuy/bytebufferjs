@@ -1414,3 +1414,5 @@ ByteBuffer.wrap = function(buffer, encoding, littleEndian, noAssert) {
         throw TypeError("Illegal buffer");
     return bb;
 };
+
+window.ByteBuffer = ByteBuffer;
